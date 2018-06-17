@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+.header h1 {
+  text-align: center;
+}
+.column {
+  display: inline-block;
+  float: left;
+  width: 33.33333333333333%
+}
+.main-text {
+  padding-top: 60px;
+  clear: both;
+}
+.image img {
+  width: 100%;
+}
+#skill-list {
+  margin-left: 50px;
+}
+body {
+  background-color: #fffeea;
+  color: #34495e;
+  padding-top: 96px;
+}
+.skills {
+  background-color: #5AD4C2;
+  color: #FFF;
+}
+
+/*Navigation*/
+.nav {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.nav ul {
+  float: right;
+}
+.nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 20px 10px 20px;
+}
+.nav ul li a {
+  color: white;
+  transition: color 600ms;
+}
+.nav a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
+/*Typography*/
+
+h1,
+h2,
+h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+p li {
+  font-family: Georgia, Times, Times New Roman, serif;
+}
+.intro p {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 100;
+  webkit-margin-before: 0;
+}
+.skills h3 {
+  text-align: center;
+  text-transform: uppercase;
+}

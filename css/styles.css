@@ -1,0 +1,153 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: #34495e;
+  padding-top: 51px;
+  position: relative;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+.jumbotron p {
+  color: white;
+}
+
+/*Navigation*/
+.nav {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.nav ul {
+  float: right;
+}
+.nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 20px 10px 20px;
+}
+.nav ul li a {
+  color: white;
+  transition: color 600ms;
+}
+.nav a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
+.projectName {
+    text-transform: uppercase;
+}
+.projectName a {
+    color: white;
+}
+/*Typography*/
+
+h1,
+h2,
+h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: white;
+}
+p {
+  font-family: Georgia, Times, Times New Roman, serif;
+  margin-left: 40px;
+  color: white;
+}
+ul#skill-list {
+  list-style-type: none;
+  margin-left: 200px;
+}
+ul#skill-list > li {
+  color: white;
+}
+/* work styles */
+.anchor {
+  padding-top: 50px;
+}
+.col-md-3 {
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/*faq styles */
+.panel-body {
+  background-color: gray;
+  color: black;
+}
+.panel-title {
+  color: blue;
+}
+
+/*image styles */
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+ }
+.learn-more {
+   text-align: left;
+   float: left;
+   margin-left: 40px;
+ }
+.modal-button {
+  float: right;
+  padding: 15px;
+}
+#modalembed {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+}
+ /* contact_styles */
+
+ #contact{
+    background-image: url("../img/landscape.jpg");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    color: white;
+/*Change the color of the text on top so it is readable and adjust the padding as needed.*/
+    padding:100px;
+    padding-top: 50px;
+    height: 450px;
+}
+#item1 {
+  padding-left: 40px;
+}
+
+/* form styles */
+form {
+  padding-top: 50px;
+}
+.form-control {
+  width: 80%;
+}
+.message-box {
+  width: 80%;
+}
+#message {
+  color: black;
+}
+
+/* footer styles */
+ul#footer-ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+ul#footer-ul > li {
+  display: inline-block;
+}
+#footer-p {
+  float: right;
+}
