@@ -76,6 +76,27 @@ ul#skill-list > li {
   padding-right: 10px;
   padding-left: 10px;
 }
+.work-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work */
+}
+.info {
+  position: absolute; /* let's us move the text around and not worry about the image */
+  top: 15%; /* position the text 15% away from the top */
+  left: 22%;
+  color:#fff;
+  font-family:Futura;
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing:0.5em;
+  line-height:1.6;
+  display: none;
+}
+.proj-title {
+  font-weight: 100;
+}
 
 /*faq styles */
 .panel-body {
@@ -140,6 +161,12 @@ form {
   color: black;
 }
 
+/* map styles */
+
+#map {
+  height: 100px;
+  width: 100%
+}
 /* footer styles */
 ul#footer-ul {
   list-style-type: none;
